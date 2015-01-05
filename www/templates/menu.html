@@ -1,0 +1,29 @@
+<ion-nav-bar>
+  <ion-nav-buttons side="left">
+   <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+</ion-nav-bar>
+<ion-content>
+	<div ng-model="menuItems">
+		<div class="list card" ng-repeat="(key, val) in menuItems">
+			<div class="item item-body">
+				<img class="half-image" src="img/thumbnail-food-app.jpg">
+			    <p>{{ val.description }}</p>
+		  	</div>
+		  	<div class="item tabs tabs-secondary tabs-icon-left">
+			    <a class="tab-item" href="#">
+			      <i class="icon ion-thumbsup"></i>
+			      Like
+			    </a>
+			    <a class="tab-item" href="#">
+			      <i class="icon ion-chatbox"></i>
+			      Comment
+			    </a>
+			    <a class="tab-item" href="#">
+			      <i class="icon ion-plus-circled"></i>
+			      Add
+			    </a>
+			</div>
+		</div>
+	</div>
+</ion-content>
