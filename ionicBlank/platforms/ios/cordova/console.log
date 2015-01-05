@@ -1,0 +1,8 @@
+2015-01-03 20:01:56.734 ionicBlank[41028:941031] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/pariharb/Library/Developer/CoreSimulator/Devices/5E12E906-891B-4C71-870E-93F28DFCA628/data/Containers/Data/Application/2B5CAD0F-3FBC-4790-B418-7400524F5C71/Library/Cookies/Cookies.binarycookies
+2015-01-03 20:01:57.221 ionicBlank[41028:941031] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-03 20:01:57.222 ionicBlank[41028:941031] Multi-tasking -> Device: YES, App: YES
+2015-01-03 20:01:57.245 ionicBlank[41028:941031] Unlimited access to network resources
+2015-01-03 20:01:57.732 ionicBlank[41028:941031] [CDVTimer][keyboard] 0.066996ms
+2015-01-03 20:01:57.732 ionicBlank[41028:941031] [CDVTimer][TotalPluginStartup] 0.917017ms
+2015-01-03 20:01:58.759 ionicBlank[41028:941031] Resetting plugins due to page load.
+2015-01-03 20:01:59.008 ionicBlank[41028:941031] Finished load of: file:///Users/pariharb/Library/Developer/CoreSimulator/Devices/5E12E906-891B-4C71-870E-93F28DFCA628/data/Containers/Bundle/Application/D564950E-1108-44B9-A377-E730D0EB6D76/ionicBlank.app/www/index.html#/home
