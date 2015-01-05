@@ -1,1187 +1,0 @@
-TCordovaLib
-v6
-r1
-cCheck dependencies
-cCpHeader Classes/NSDictionary+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-cCpHeader Classes/CDVInvokedUrlCommand.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-cCpHeader Classes/NSData+Base64.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-cCpHeader Classes/CDVPluginResult.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-cCpHeader Classes/CDVPlugin.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-cCpHeader Classes/CDVDebug.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-cCpHeader Classes/CDVWhitelist.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-cCpHeader Classes/CDVURLProtocol.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-cCpHeader Classes/CDVViewController.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-cCpHeader Classes/CDVCommandDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-cCpHeader Classes/CDV.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDV.h
-cCpHeader Classes/CDVAvailability.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-cCpHeader Classes/CDVAvailabilityDeprecated.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h
-cCpHeader Classes/CDVLocalStorage.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-cCpHeader Classes/UIDevice+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-cCpHeader Classes/NSArray+Comparisons.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-cCpHeader Classes/CDVCommandQueue.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-cCpHeader Classes/CDVCommandDelegateImpl.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-cCpHeader Classes/CDVShared.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-cCpHeader Classes/CDVConfigParser.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-cCpHeader Classes/CDVJSON.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-cCpHeader Classes/CDVWebViewDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-cCpHeader Classes/CDVUserAgentUtil.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-cCpHeader Classes/CDVTimer.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-cProcessPCH /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/libCordova.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000535F83C600000000000003B4
-t1398768582
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000535F83CA000000000000019E
-t1398768586
-s414
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDV.h
-c0000000054A17FE10000000000000516
-t1419870177
-s1302
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-c0000000054A17FE10000000000000B72
-t1419870177
-s2930
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-c0000000054A17FE10000000000000684
-t1419870177
-s1668
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-c0000000054A17FE100000000000007D6
-t1419870177
-s2006
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-c0000000054A17FE100000000000004E2
-t1419870177
-s1250
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-c0000000054A17FE100000000000017C7
-t1419870177
-s6087
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-c0000000054A17FE10000000000000503
-t1419870177
-s1283
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-c0000000054A17FE10000000000001ED0
-t1419870177
-s7888
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-c0000000054A17FE100000000000004CB
-t1419870177
-s1227
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-c0000000054A17FE10000000000000EBF
-t1419870177
-s3775
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVDebug.h
-c0000000054A17FE10000000000000401
-t1419870177
-s1025
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-c0000000054A17FE100000000000007E6
-t1419870177
-s2022
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-c0000000054A17FE10000000000000DDE
-t1419870177
-s3550
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h
-c0000000054A17FE100000000000003EE
-t1419870177
-s1006
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.m
-c0000000054A17FE10000000000000B50
-t1419870177
-s2896
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-c0000000054A17FE100000000000006CF
-t1419870177
-s1743
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-c0000000054A17FE10000000000004E73
-t1419870177
-s20083
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-c0000000054A17FE10000000000000A00
-t1419870177
-s2560
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-c0000000054A17FE1000000000000173C
-t1419870177
-s5948
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-c0000000054A17FE10000000000000DB3
-t1419870177
-s3507
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-c0000000054A17FE10000000000001AEA
-t1419870177
-s6890
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-c0000000054A17FE10000000000000408
-t1419870177
-s1032
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVShared.h
-c0000000054A17FE10000000000000393
-t1419870177
-s915
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.h
-c0000000054A17FE1000000000000038D
-t1419870177
-s909
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.m
-c0000000054A17FE10000000000000AA2
-t1419870177
-s2722
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-c0000000054A17FE1000000000000041C
-t1419870177
-s1052
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-c0000000054A17FE100000000000023F9
-t1419870177
-s9209
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-c0000000054A17FE10000000000000421
-t1419870177
-s1057
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-c0000000054A17FE10000000000001361
-t1419870177
-s4961
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.h
-c0000000054A17FE10000000000000C33
-t1419870177
-s3123
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.m
-c0000000054A17FE1000000000000974E
-t1419870177
-s38734
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-c0000000054A17FE10000000000000686
-t1419870177
-s1670
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-c0000000054A17FE10000000000003B19
-t1419870177
-s15129
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-c0000000054A17FE100000000000004B4
-t1419870177
-s1204
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-c0000000054A17FE100000000000029D5
-t1419870177
-s10709
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-c0000000054A17FE10000000000000392
-t1419870177
-s914
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-c0000000054A17FE10000000000000512
-t1419870177
-s1298
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-c0000000054A17FE10000000000000590
-t1419870177
-s1424
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-c0000000054A17FE1000000000000254B
-t1419870177
-s9547
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-c0000000054A17FE100000000000005DA
-t1419870177
-s1498
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-c0000000054A17FE10000000000001059
-t1419870177
-s4185
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-c0000000054A17FE100000000000003A0
-t1419870177
-s928
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-c0000000054A17FE10000000000000584
-t1419870177
-s1412
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-c0000000054A17FE10000000000000476
-t1419870177
-s1142
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-c0000000054A17FE10000000000000620
-t1419870177
-s1568
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-c0000000054A17FE10000000000000346
-t1419870177
-s838
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-t1419870186
-s64064
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-t1419870186
-s61396
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-t1419870186
-s27432
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-t1419870186
-s18224
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-t1419870186
-s11596
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-t1419870186
-s106804
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-t1419870186
-s57536
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-t1419870186
-s36496
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-t1419870186
-s22584
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-t1419870186
-s66388
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-t1419870186
-s50736
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-t1419870186
-s168852
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-t1419870186
-s70292
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-t1419870186
-s43104
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
-c0000000054A17FE90000000000000BE2
-t1419870185
-s3042
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-t1419870186
-s7300
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-t1419870186
-s10868
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-t1419870186
-s17308
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-t1419870186
-s6756
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-t1419870186
-s9172
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDV.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/libCordova.a
-t2
-s0
-
-N/Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.pch
-t1419870186
-s3241684
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1e33e869b751ba41^4f200c6ab751ba41^---0#1#1#--18"Check dependencies36"052C0D2E-DCB4-4783-A3A0-4BFE0B558D21-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.311608
-e441562986.636676
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m216"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera130506ab751ba41^a35ba36ab751ba41^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3956"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"ECB67D0E-A222-471A-A973-8D62905E381F-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.288881
-e441562986.621676
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler65194a6ab751ba41^124a9f6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3914"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"BA7F223F-CE37-45AA-A1C8-2AEDE32A72A9-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.481461
-e441562986.554152
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerba697b6ab751ba41^ace18e6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3914"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"D7B3EB0F-E67C-46FD-AD5E-F94CC0F3F1F6-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.206587
-e441562986.252515
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m212"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4815356ab751ba41^8b34416ab751ba41^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3944"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"D07E56B2-DE0C-43F6-9F48-A127D40FE489-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.498273
-e441562986.538014
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.m186"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf6b47f6ab751ba41^f5db8b6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3866"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"28B2CD80-6293-4649-96FC-A3AFC7000990-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.242718
-e441562986.618545
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler49d53e6ab751ba41^61fe9e6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3914"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"E767CBCD-9EE4-4268-8CD8-A536B5E81DC9-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.207960
-e441562986.515625
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc89a356ab751ba41^c43e856ab751ba41^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3878"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"2C8C99C8-0021-4D52-B106-C790869BF3B1-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.207444
-e441562986.479787
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd864356ab751ba41^eca57d6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3914"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"D3EAB7DD-C428-4FE3-BBE7-3A195DC7F966-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.542064
-e441562986.600442
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.m188"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd5e78a6ab751ba41^a6449a6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3872"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"ACCB2656-241B-4EDA-8736-229CF58123CD-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.210233
-e441562986.541731
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m200"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfa0a366ab751ba41^82e28b6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3908"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"B88D70AF-F080-4CDD-8F75-980388BA59CC-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.515964
-e441562986.734282
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m204"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler043d846ab751ba41^33fcbb6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3920"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"3C27EC65-EF97-4DFD-A88E-CE68BF2BB32D-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.243327
-e441562986.739003
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.m206"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2e733e6ab751ba41^9831bd6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3926"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"EEDB107D-D255-470B-9DDD-4ADA9F4672C5-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.538384
-e441562986.751594
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m208"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdbfa896ab751ba41^c26ac06ab751ba41^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3932"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"48D6A53F-CE08-413B-86A7-99A09561CD90-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.209960
-e441562986.310341
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.m196"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler234b366ab751ba41^2dea4f6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3896"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"D27757F2-3EEF-4FE1-9E64-AB0B241FC344-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.252837
-e441562986.287420
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraddb406ab751ba41^21af4b6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3938"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"77B85327-5454-40FD-BDAA-5B997D39F79B-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.207002
-e441562986.242069
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.m198"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercd21356ab751ba41^b56f3e6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3902"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"B4E03569-DCFC-417F-AD53-F725532CBBEE-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.206266
-e441562986.246682
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m218"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdbf7346ab751ba41^e527416ab751ba41^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3962"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"8AA3A8B0-4337-4800-90ED-EB7340D1A828-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.208566
-e441562986.241450
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m230"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8ee9356ab751ba41^f86b3e6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3998"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"14B1DFB6-6403-404D-80EE-CAA98B09AA47-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562986.247032
-e441562986.497909
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbcc93f6ab751ba41^a6d5806ab751ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3938"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG -include /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"D30E139A-13AD-4554-8458-248CF0EE2AD0-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDV.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDV.h
-s441562985.981219
-e441562985.982955
-r1
-xCpHeader
-xClasses/CDV.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDV.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDV.h107"CpHeader Classes/CDV.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDV.h3469fb69b751ba41^f8710c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDV.h00349ca7ddffdf42^949"CpHeader Classes/CDV.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDV.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"443592FE-08AE-46E5-AF82-4CDC306D4B52-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVAvailability.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-s441562985.982335
-e441562985.983991
-r1
-xCpHeader
-xClasses/CDVAvailability.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h131"CpHeader Classes/CDVAvailability.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h82a8fb69b751ba41^5f790c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h00349ca7ddffdf42^985"CpHeader Classes/CDVAvailability.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"15409607-04A7-461E-A946-9425DE1CEB48-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVAvailabilityDeprecated.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h
-s441562985.982842
-e441562985.984208
-r1
-xCpHeader
-xClasses/CDVAvailabilityDeprecated.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h151"CpHeader Classes/CDVAvailabilityDeprecated.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h27bdfb69b751ba41^e17e0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h00349ca7ddffdf42^1015"CpHeader Classes/CDVAvailabilityDeprecated.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"1A1BEE3F-6A6E-4656-BD6C-5CDFF6887A14-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVCommandDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-s441562985.980639
-e441562985.982666
-r1
-xCpHeader
-xClasses/CDVCommandDelegate.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h137"CpHeader Classes/CDVCommandDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h5f44fb69b751ba41^9c6b0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h00349ca7ddffdf42^994"CpHeader Classes/CDVCommandDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"7DFC860B-C62F-4794-A049-4353CC8C8B55-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVCommandDelegateImpl.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-s441562985.985675
-e441562985.987211
-r1
-xCpHeader
-xClasses/CDVCommandDelegateImpl.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h145"CpHeader Classes/CDVCommandDelegateImpl.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h3b72fc69b751ba41^40a30c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h00349ca7ddffdf42^1006"CpHeader Classes/CDVCommandDelegateImpl.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"0764CE16-A099-424D-BBE7-FA6DFB60F62E-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVCommandQueue.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-s441562985.984785
-e441562985.987217
-r1
-xCpHeader
-xClasses/CDVCommandQueue.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h131"CpHeader Classes/CDVCommandQueue.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.had31fc69b751ba41^f59c0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h00349ca7ddffdf42^985"CpHeader Classes/CDVCommandQueue.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"E46C07F6-7662-4138-83FA-693486ACDBE4-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVConfigParser.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-s441562985.988101
-e441562985.989173
-r1
-xCpHeader
-xClasses/CDVConfigParser.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h131"CpHeader Classes/CDVConfigParser.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h1f13fd69b751ba41^d4b70c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h00349ca7ddffdf42^985"CpHeader Classes/CDVConfigParser.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"D5470BAF-B7FF-4E78-84C7-3FB7EC2FA7EA-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVDebug.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-s441562985.976808
-e441562985.978902
-r1
-xCpHeader
-xClasses/CDVDebug.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVDebug.h117"CpHeader Classes/CDVDebug.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVDebug.h583bfa69b751ba41^0a4b0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVDebug.h00349ca7ddffdf42^964"CpHeader Classes/CDVDebug.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"650C93F7-0AE5-4E33-BCB0-113561613C25-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVInvokedUrlCommand.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-s441562985.975610
-e441562985.977918
-r1
-xCpHeader
-xClasses/CDVInvokedUrlCommand.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h141"CpHeader Classes/CDVInvokedUrlCommand.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.habeaf969b751ba41^1a300c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h00349ca7ddffdf42^1000"CpHeader Classes/CDVInvokedUrlCommand.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"E0D8362A-BF29-4AD4-976A-BDC5C3015C22-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVJSON.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-s441562985.988733
-e441562985.989782
-r1
-xCpHeader
-xClasses/CDVJSON.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVJSON.h115"CpHeader Classes/CDVJSON.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVJSON.hbc3cfd69b751ba41^1abf0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVJSON.h00349ca7ddffdf42^961"CpHeader Classes/CDVJSON.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"239EF992-2E20-415B-9E44-29CB3CE343D2-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVLocalStorage.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-s441562985.983450
-e441562985.985283
-r1
-xCpHeader
-xClasses/CDVLocalStorage.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h131"CpHeader Classes/CDVLocalStorage.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.hc2fafb69b751ba41^2b890c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h00349ca7ddffdf42^985"CpHeader Classes/CDVLocalStorage.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"4DF078BF-03F1-4A32-96F1-D2C1897987E8-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVPlugin.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-s441562985.976449
-e441562985.978651
-r1
-xCpHeader
-xClasses/CDVPlugin.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h119"CpHeader Classes/CDVPlugin.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h7924fa69b751ba41^cc450c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h00349ca7ddffdf42^967"CpHeader Classes/CDVPlugin.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"3DD7DC81-AC38-4DE6-801E-8393D5999E81-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVPluginResult.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-s441562985.976134
-e441562985.978119
-r1
-xCpHeader
-xClasses/CDVPluginResult.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h131"CpHeader Classes/CDVPluginResult.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h8f00fa69b751ba41^e63f0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h00349ca7ddffdf42^985"CpHeader Classes/CDVPluginResult.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"1F7F6061-E35D-4A0D-BEAA-542F9C653FDC-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-s441562985.987325
-e441562985.988656
-r1
-xCpHeader
-xClasses/CDVScreenOrientationDelegate.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h157"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h04e7fc69b751ba41^ebaa0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h00349ca7ddffdf42^1024"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"C53294C7-D311-4921-A6DE-0A47C06F62E1-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVShared.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-s441562985.986830
-e441562985.988711
-r1
-xCpHeader
-xClasses/CDVShared.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVShared.h119"CpHeader Classes/CDVShared.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVShared.h03d0fc69b751ba41^8aad0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVShared.h00349ca7ddffdf42^967"CpHeader Classes/CDVShared.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"A7460D1E-6CF7-40FC-B7CA-867C3ADA2E23-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVTimer.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-s441562985.989577
-e441562985.990661
-r1
-xCpHeader
-xClasses/CDVTimer.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVTimer.h117"CpHeader Classes/CDVTimer.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVTimer.h1971fd69b751ba41^1cd20c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVTimer.h00349ca7ddffdf42^964"CpHeader Classes/CDVTimer.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"BD7C51E8-4F14-4C72-B1C9-38237D9625F2-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVURLProtocol.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-s441562985.979877
-e441562985.981543
-r1
-xCpHeader
-xClasses/CDVURLProtocol.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h129"CpHeader Classes/CDVURLProtocol.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.hbaf5fa69b751ba41^c05f0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h00349ca7ddffdf42^982"CpHeader Classes/CDVURLProtocol.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"1B6E13F2-CD41-4F9D-A66A-13CE948FDC29-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVUserAgentUtil.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-s441562985.989307
-e441562985.990490
-r1
-xCpHeader
-xClasses/CDVUserAgentUtil.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h133"CpHeader Classes/CDVUserAgentUtil.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.hd95cfd69b751ba41^d9cd0c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h00349ca7ddffdf42^988"CpHeader Classes/CDVUserAgentUtil.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"8F60F46B-8479-4CCC-BA4F-81EFC63BFD44-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVViewController.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-s441562985.980209
-e441562985.981631
-r1
-xCpHeader
-xClasses/CDVViewController.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVViewController.h135"CpHeader Classes/CDVViewController.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVViewController.h630dfb69b751ba41^1f650c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVViewController.h00349ca7ddffdf42^991"CpHeader Classes/CDVViewController.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"2E27123B-323B-4275-9BC9-359BCB0ED1B7-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVWebViewDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-s441562985.989062
-e441562985.990310
-r1
-xCpHeader
-xClasses/CDVWebViewDelegate.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h137"CpHeader Classes/CDVWebViewDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.hf452fd69b751ba41^d6c60c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h00349ca7ddffdf42^994"CpHeader Classes/CDVWebViewDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"0F875A30-9C68-4FB2-BBA0-3AB9EA83C875-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/CDVWhitelist.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-s441562985.978485
-e441562985.980077
-r1
-xCpHeader
-xClasses/CDVWhitelist.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h125"CpHeader Classes/CDVWhitelist.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h8aaffa69b751ba41^68580c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h00349ca7ddffdf42^976"CpHeader Classes/CDVWhitelist.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"5005965B-0850-4393-BFDE-4C26F9B09478-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/NSArray+Comparisons.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-s441562985.984199
-e441562985.986866
-r1
-xCpHeader
-xClasses/NSArray+Comparisons.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h139"CpHeader Classes/NSArray+Comparisons.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.hb420fc69b751ba41^53970c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h00349ca7ddffdf42^997"CpHeader Classes/NSArray+Comparisons.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"8A490DBB-09B8-4090-A297-8E0BC78107CD-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/NSData+Base64.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-s441562985.975958
-e441562985.978261
-r1
-xCpHeader
-xClasses/NSData+Base64.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h127"CpHeader Classes/NSData+Base64.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h9f00fa69b751ba41^2a380c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h00349ca7ddffdf42^979"CpHeader Classes/NSData+Base64.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"00F84E7B-DE57-4487-B378-202D3AF95871-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/NSDictionary+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-s441562985.975428
-e441562985.977905
-r1
-xCpHeader
-xClasses/NSDictionary+Extensions.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h147"CpHeader Classes/NSDictionary+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h14eaf969b751ba41^ad350c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h00349ca7ddffdf42^1009"CpHeader Classes/NSDictionary+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"731F54CC-0A01-4ADF-B5E3-50C2473CDE08-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-s441562985.977754
-e441562985.980045
-r1
-xCpHeader
-xClasses/NSMutableArray+QueueAdditions.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h159"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h9d9ffa69b751ba41^d6520c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h00349ca7ddffdf42^1027"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"F833B51B-94F7-4C4D-99F8-6B78CC712951-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CCpHeader Classes/UIDevice+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-s441562985.984040
-e441562985.986278
-r1
-xCpHeader
-xClasses/UIDevice+Extensions.h
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h139"CpHeader Classes/UIDevice+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.hc614fc69b751ba41^f7900c6ab751ba41^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h00349ca7ddffdf42^997"CpHeader Classes/UIDevice+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include/Cordova36"42604B94-B26B-4249-93B1-5792DAB2D753-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CLibtool /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/libCordova.a normal i386
-s441562986.752717
-e441562986.766023
-r1
-xLibtool
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/libCordova.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Libtool /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/libCordova.a normal i38695"Libtool /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/libCordova.a normal i38643c5c06ab751ba41^331bc46ab751ba41^---0#0#1#--1282"Libtool /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -filelist /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/libCordova.a36"4D7331E1-E984-49F8-B12C-14CF495EC226-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
-CProcessPCH /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s441562985.991223
-e441562986.205444
-r1
-xProcessPCH
-x/Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.pch
-xCordovaLib_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch237"ProcessPCH /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerace2fd69b751ba41^d997346ab751ba41^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3740"ProcessPCH /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pariharb/bin:/widget_boilerplate/bin:/Users/pariharb/pariharb_maven1/Java/Globals/main/ant-1.7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/pariharb/sqlplus:/Users/pariharb/maven-3.0.4/bin:/Users/pariharb/phantomjs-1.9.7-macosx/bin:/Users/pariharb/npm/bin:/usr/local/Cellar/mongodb/2.6.1/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/pariharb/Desktop/Stargazey/platforms/ios/build/emulator -DDEBUG --serialize-diagnostics /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.d -c /Users/pariharb/Desktop/Stargazey/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /Users/pariharb/Desktop/Stargazey/platforms/ios/build/sharedpch/CordovaLib_Prefix-bfnjudvctfwwnoavivbvjyycekym/CordovaLib_Prefix.pch.pch36"03A35CE4-FED8-403D-BAE1-E0A9F87C6459-
-b57C007D3-F057-4B4F-A384-66A9A14E92ED
-
