@@ -1,7 +1,7 @@
-var app = angular.module('ionicApp', ['ionic', 'ionicApp.controllers'])
+var app = angular.module('ionicApp', ['ionic', 'ui.router','ionicApp.controllers'])
 
 app.config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/app/home')
+  $urlRouterProvider.otherwise('/app/home');
 
   $stateProvider
 
@@ -34,8 +34,24 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
   .state('app.modules', {
     url: '/modules',
-    templateUrl: 'templates/modules.html'
+    views : {
+      'menuContent' :{
+          templateUrl: 'templates/modules.html',
+          controller: 'settingsCtrl'
+      }
+    }
   })
+
+  .state('app.steward', {
+    url: '/steward/home',
+    views : {
+      'menuContent' :{
+          templateUrl: 'templates/steward/home.html',
+          controller: 'stewardCtrl'
+      }
+    }
+  })
+
 
   .state('help', {
     url: '/help',

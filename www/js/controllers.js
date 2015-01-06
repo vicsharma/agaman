@@ -1,13 +1,22 @@
-angular.module('ionicApp.controllers', [])
+angular.module('ionicApp.controllers', ['ui.router'])
 
 .controller('AppCtrl', function($scope, $ionicModal) {
   
 })
 
-.controller('settingsCtrl', function($scope, $ionicModal,$state) {
+.controller('settingsCtrl', function($scope, $ionicModal, $state) {
   	$scope.goToSettings = function() {
 	  $state.go('app.modules');
 	};
+
+	$scope.applySettings = function() {
+  		console.log("Applied");
+	  $state.go('app.steward');
+	};
+})
+
+.controller('stewardCtrl', function($scope, $ionicModal, $state) {
+	$scope.tables = [1,2,3,4,5,6,7,8,9];
 })
 
 .controller('menuCtrl', function($scope,$http) {
