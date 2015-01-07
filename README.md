@@ -1,4 +1,5 @@
-1. Checkout the whole folder
-
-2. In your terminal run below command:
-        ionic serve
+1. Install node
+2. $sudo npm install -g cordova
+3. $sudo npm install -g ionic
+4. Checkout the whole folder
+5. ionic serve
