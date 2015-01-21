@@ -1,0 +1,22 @@
+<ion-view view-title="Order">
+<ion-content>
+	<div class="row responsive-sm">
+		<div ng-model="orderItems">
+			<div class="list">
+
+				<a class="item item-thumbnail-left" href="#" ng-repeat="(key, val) in orderItems">
+			      <img src="img/thumbnail-food-app.jpg">
+			      <h2>{{ val.name }}</h2>
+			      <p>{{ val.description }}</p>
+			      <button class="button button-small button-assertive">Cancel</button>
+			    </a>
+			</div>
+		</div>
+	</div>
+	<div class="row responsive-sm">
+		<button class="button button-positive">
+		  Send Order to Kitchen
+		</button>
+	</div>
+</ion-content>
+</ion-view>

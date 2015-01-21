@@ -11,7 +11,7 @@ angular.module('ionicApp.controllers', ['ui.router'])
 
 	$scope.applySettings = function() {
   		console.log("Applied");
-	  $state.go('app.steward');
+	  $state.go('app.table[home]');
 	};
 })
 
@@ -20,7 +20,6 @@ angular.module('ionicApp.controllers', ['ui.router'])
 })
 
 .controller('menuCtrl', function($scope,$http) {
-	$scope.myNumber = 5;
 	$http.get('/json/menu.json').
 	  success(function(data, status, headers, config) {
 	  	$scope.menuItems = data;
