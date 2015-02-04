@@ -1,16 +1,36 @@
-<ion-view view-title="Menu">
+<ion-view pull-right view-title="Restro7">
 <ion-content>
-	<div ng-model="menuItems">
-		<div class="list">
+<div class="row">
+  <div class="col col-67">
+  	<div class="advertisement">
+  		
+	   </div>
+	<div class="menuArea">
+      <div ng-model="menuItems">
+        <div class="list">
 
-			<a class="item item-thumbnail-left" href="#" ng-repeat="(key, val) in menuItems">
-		      <img src="img/thumbnail-food-app.jpg">
-		      <h2>{{ val.name }}</h2>
-		      <p>{{ val.description }}</p>
-		      <button class="button button-small button-assertive">Add</button>
-		    </a>
-		</div>
-	</div>
-	Menu
+          <a class="item item-thumbnail-left" href="#" ng-repeat="(key, val) in menuItems" ng-click="menuSelected(val)">
+              <img src="img/thumbnail-food-app.jpg">
+              <h2>{{ val.name }}</h2>
+              <p>{{ val.description }}</p>
+              <button class="button button-small button-assertive">Add</button>
+            </a>
+        </div>
+      </div>
+    
+  </div>
+  </div>
+  <aside class="orderCol col">
+    <span ng-bind="item.name"></span>
+    <div ng-bind="item.description"></div>
+  </aside>
+</div>
 </ion-content>
 </ion-view>
+
+<div class="bar bar-footer">
+  <button>Call a waiter</button>
+  <button>Water</button>
+  <button>Check</button>
+  <button>Finish Dining</button>
+</div>

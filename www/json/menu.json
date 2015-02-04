@@ -17,7 +17,8 @@
       "sarso",
       "gravy2"
     ],
-    "veg": "eggitarian"
+    "veg": "eggitarian",
+    "imgUrl" : "img/thumbnail-food-app.jpg"
   },
   "103": {
     "restaurant_code": "1",
@@ -37,7 +38,8 @@
       "sarso",
       "gravy2"
     ],
-    "veg": "eggitarian"
+    "veg": "eggitarian",
+    "imgUrl" : "img/thumbnail-food-app.jpg"
   },
   "104": {
     "restaurant_code": "1",
@@ -57,7 +59,8 @@
       "sarso",
       "gravy2"
     ],
-    "veg": "eggitarian"
+    "veg": "eggitarian",
+    "imgUrl" : "img/thumbnail-food-app.jpg"
   },
   "105": {
     "restaurant_code": "1",
@@ -77,6 +80,49 @@
       "sarso",
       "gravy2"
     ],
-    "veg": "eggitarian"
+    "veg": "eggitarian",
+    "imgUrl" : "img/thumbnail-food-app.jpg"
+  },
+  "106": {
+    "restaurant_code": "1",
+    "id": 106,
+    "category": "maincourse",
+    "chillyrating": 3,
+    "cuisine": "Punjabi",
+    "description": "Sarson da saag (Sarson ka saag, in Hindi, Urdu) is a popular vegetable dish in the Punjab region of India and Pakistan made from mustard leaves (sarson) and spices. However, it is also popular in other neighboring states of Haryana and Rajasthan. It cannot be said confidently that it originated in the Punjab region.",
+    "mealtype": [
+      "lunch",
+      "dinner"
+    ],
+    "name": "Chicken Curry Rice",
+    "picture": "http://agaminasset.sds.png",
+    "price": 170,
+    "tag": [
+      "sarso",
+      "gravy2"
+    ],
+    "veg": "eggitarian",
+    "imgUrl" : "img/thumbnail-food-app.jpg"
+  },
+  "107": {
+    "restaurant_code": "1",
+    "id": 107,
+    "category": "maincourse",
+    "chillyrating": 3,
+    "cuisine": "Punjabi",
+    "description": "Sarson da saag (Sarson ka saag, in Hindi, Urdu) is a popular vegetable dish in the Punjab region of India and Pakistan made from mustard leaves (sarson) and spices. However, it is also popular in other neighboring states of Haryana and Rajasthan. It cannot be said confidently that it originated in the Punjab region.",
+    "mealtype": [
+      "lunch",
+      "dinner"
+    ],
+    "name": "Chicken Curry Rice",
+    "picture": "http://agaminasset.sds.png",
+    "price": 170,
+    "tag": [
+      "sarso",
+      "gravy2"
+    ],
+    "veg": "eggitarian",
+    "imgUrl" : "img/thumbnail-food-app.jpg"
   }
 }

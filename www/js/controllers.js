@@ -1,4 +1,4 @@
-angular.module('ionicApp.controllers', ['ui.router'])
+var AppController = angular.module('ionicApp.controllers', ['ui.router'])
 
 .controller('AppCtrl', function($scope, $ionicModal) {
   
@@ -19,17 +19,21 @@ angular.module('ionicApp.controllers', ['ui.router'])
 	$scope.tables = [1,2,3,4,5,6,7,8,9];
 })
 
-.controller('menuCtrl', function($scope,$http) {
-	$http.get('/json/menu.json').
-	  success(function(data, status, headers, config) {
-	  	$scope.menuItems = data;
-	    // this callback will be called asynchronously
-	    // when the response is available
-	  }).
-	  error(function(data, status, headers, config) {
-	    // called asynchronously if an error occurs
-	    // or server returns response with an error status.
-	  });
+.controller('menuCtrl', function($scope,$http,menuService) {
+		 menuService.getMenu().then(function(response){
+			$scope.menuItems = response.data;
+		},
+		function(data){
+			console.log("Error");
+		});
 
+		 $scope.menuSelected= function(menuItem){
+		 	//console.log(element.text());
+		 	$scope.item = {
+		 		name: menuItem.name,
+		 		description: menuItem.description
+		 	};
+		 };
+		
 	  //'http://192.168.0.118:8000/menu/1'
 });

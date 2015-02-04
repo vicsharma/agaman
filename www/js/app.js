@@ -1,7 +1,7 @@
-var app = angular.module('ionicApp', ['ionic', 'ui.router','ionicApp.controllers','ionicApp.tableController']);
+var app = angular.module('ionicApp', ['ionic', 'ui.router','ionicApp.controllers','ionicApp.service']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/app/home');
+  $urlRouterProvider.otherwise('app/table/menu');
 
   $stateProvider
 
@@ -45,5 +45,53 @@ app.config(function($stateProvider, $urlRouterProvider) {
   .state('help', {
     url: '/help',
     templateUrl: 'templates/help.html'
+  })
+
+  /* Steward Module route  :: Start */
+
+  .state('app.steward[home]', {
+    url: '/steward/home',
+    views : {
+      'menuContent' :{
+          templateUrl: 'templates/steward/home.html',
+          controller: 'stewardCtrl'
+      }
+    }
+  })
+
+  /* Steward Module route  :: End */
+
+  /* Table Module route :: Start */
+
+  .state('app.table[home]', {
+    url: '/table/home',
+    views : {
+      'menuContent' :{
+          templateUrl: 'templates/table/home.html',
+          controller: 'userDetailsCtrl'
+      }
+    }
+  })
+
+  .state('app.table[menu]', {
+    url: '/table/menu',
+    views : {
+      'menuContent' :{
+          templateUrl: 'templates/table/menu.html',
+          controller: 'menuCtrl'
+      }
+    }
+  })
+
+  .state('app.table[order]', {
+    url: '/table/order',
+    views : {
+      'menuContent' :{
+          templateUrl: 'templates/table/order.html',
+          controller: 'orderCtrl'
+      }
+    }
   });
+
+  /* Table Module route :: End */
 });
