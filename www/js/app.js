@@ -95,3 +95,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
   /* Table Module route :: End */
 });
+
+app.filter('filterFunction', function (searchText) {
+    // function that's invoked each time Angular runs $digest()
+    // pass in `item` which is the single Object we'll manipulate
+    return function (item) {
+        // return the current `item`, but call `toUpperCase()` on it
+        return item.toUpperCase();
+    };
+});

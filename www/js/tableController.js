@@ -22,7 +22,7 @@ AppController
 				$state.go('app.table[menu]');
 			},
 			function(data){
-				alert("Please enter a valid email or mobile number");
+				console.log(data);
 			});
 		   	//$state.go('app.table[menu]');
 			

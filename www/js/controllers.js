@@ -34,6 +34,6 @@ var AppController = angular.module('ionicApp.controllers', ['ui.router'])
 		 		description: menuItem.description
 		 	};
 		 };
-		
+
 	  //'http://192.168.0.118:8000/menu/1'
 });
