@@ -1,12 +1,21 @@
 AppController
-	.controller('orderCtrl', function($scope,$http) {
-		$http.get('/json/order.json').
-	  	success(function(data, status, headers, config) {
-	  		$scope.orderItems = data;
-			}).
-  		error(function(data, status, headers, config) {
+	.controller('orderCtrl', function($scope,$http,OrderService) {
+	  	$scope.order = JSON.parse(localStorage.getItem('currentOrder'));
 
-  		});
+        $scope.incrementQuantity = function(index){
+            $scope.order.foodItems[index].quantity=$scope.order.foodItems[index].quantity+1;
+        }
+
+        $scope.decrementQuantity = function(index){
+            $scope.order.foodItems[index].quantity=$scope.order.foodItems[index].quantity-1;
+        }
+
+        $scope.removeFromList = function(index){
+            if (index > -1) {
+                $scope.order.foodItems.splice(index, 1);
+            }
+        }
+
 	})
 
 	.controller('userDetailsCtrl', function($scope,$state,customerDetailService){

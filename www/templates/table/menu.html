@@ -13,12 +13,15 @@
 
         <div class="list">
 
-          <a class="item item-thumbnail-left" href="#" ng-repeat="item in menuItems | filter:searchText" ng-click="menuSelected(val)">
+          <a class="item item-thumbnail-left" href="#" ng-repeat="item in menuItems | filter:searchText" ng-click="menuSelected(item)">
               <img src="img/thumbnail-food-app.jpg">
               <h2>{{ item.name }}</h2>
               <p>{{ item.description }}</p>
               <p ng-hide="true">{{ item.tag.toString() }}</p>
-              <button class="button button-small button-assertive">Add</button>
+              <p>{{ item.mealtype }}</p>
+              <button class="button button-small button-assertive">-</button><span class="quantity">0</span>
+              <button class="button button-small button-assertive">+</button>
+              <button class="button button-small button-assertive" ng-click="addItemToOrder(item);">Add</button>
             </a>
         </div>
       </div>
@@ -38,4 +41,5 @@
   <button>Water</button>
   <button>Check</button>
   <button>Finish Dining</button>
+    <button ng-click="foodCart()">Food Cart</button>
 </div>
