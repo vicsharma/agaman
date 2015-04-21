@@ -1,19 +1,25 @@
 AppController
 	.controller('orderCtrl', function($scope,$http,OrderService) {
 	  	$scope.order = JSON.parse(localStorage.getItem('currentOrder'));
+        console.log($scope.order);
 
         $scope.incrementQuantity = function(index){
+            console.log($scope.order.foodItems[index]);
             $scope.order.foodItems[index].quantity=$scope.order.foodItems[index].quantity+1;
+            OrderService.data = $scope.order;
         }
 
         $scope.decrementQuantity = function(index){
             $scope.order.foodItems[index].quantity=$scope.order.foodItems[index].quantity-1;
+            OrderService.data = $scope.order;
         }
 
         $scope.removeFromList = function(index){
             if (index > -1) {
                 $scope.order.foodItems.splice(index, 1);
             }
+            OrderService.data = $scope.order;
+            localStorage.setItem('currentOrder',JSON.stringify(OrderService.data));
         }
 
 	})

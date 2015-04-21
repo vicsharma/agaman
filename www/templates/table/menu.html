@@ -5,23 +5,25 @@
   	<div class="advertisement">
   		
 	   </div>
+      <div class="filters">
+          <input type="search" placeholder="search" ng-model="searchText"/>
+      </div>
 	<div class="menuArea">
-        <div class="filters">
-            <input type="search" placeholder="search" ng-model="searchText"/>
-        </div>
+
       <div ng-model="menuItems">
 
         <div class="list">
 
           <a class="item item-thumbnail-left" href="#" ng-repeat="item in menuItems | filter:searchText" ng-click="menuSelected(item)">
-              <img src="img/thumbnail-food-app.jpg">
+              <img ng-src={{item.imgUrl}}>
               <h2>{{ item.name }}</h2>
               <p>{{ item.description }}</p>
               <p ng-hide="true">{{ item.tag.toString() }}</p>
-              <p>{{ item.mealtype }}</p>
-              <button class="button button-small button-assertive">-</button><span class="quantity">0</span>
-              <button class="button button-small button-assertive">+</button>
-              <button class="button button-small button-assertive" ng-click="addItemToOrder(item);">Add</button>
+              <!--<button class="button button-small button-assertive" ng-click="addItemToOrder(item);">Add</button>-->
+              <span>Rs : {{ item.price }}</span>
+              <img class="chillyRating" ng-repeat="n in [] | range: item.chillyrating" src="img/food6.png"/>
+              <span ng-show="item.veg=='vegiterian'" class="vegetarianicon">⊡</span>
+              <span ng-show="item.veg=='eggitarian'" class="nonvegeterian">⊡</span>
             </a>
         </div>
       </div>
@@ -29,17 +31,19 @@
   </div>
   </div>
   <aside class="orderCol col">
-    <span ng-bind="item.name"></span>
-    <div ng-bind="item.description"></div>
+      <div class="itemImage"><img ng-src="{{item.imgUrl}}"></div>
+      <h4 class="itemName">{{item.name}}</h4>
+      <div class="itemDescription">{{item.description}}</div>
+      <img class="chillyRating" ng-repeat="n in [] | range: item.chillyrating" src="img/food6.png"/>
+      <span ng-show="item.veg=='vegiterian'" class="vegetarianicon">⊡</span>
+      <span ng-show="item.veg=='eggitarian'" class="nonvegeterian">⊡</span>
+      <span>Rs : {{ item.price }}</span>
+      <div class="itemQuantity"><span ng-click="removeQty()">-</span><span class="netQty">{{item.netQty}}</span><span ng-click="addQty()">+</span></div>
+      <button class="button button-positive">
+          Add Item to Food Cart
+      </button>
+
   </aside>
 </div>
 </ion-content>
 </ion-view>
-
-<div class="bar bar-footer">
-  <button>Call a waiter</button>
-  <button>Water</button>
-  <button>Check</button>
-  <button>Finish Dining</button>
-    <button ng-click="foodCart()">Food Cart</button>
-</div>
