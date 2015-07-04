@@ -1,6 +1,6 @@
 AppController
 	.controller('orderCtrl', function($scope,$http,OrderService) {
-	  	$scope.order = JSON.parse(localStorage.getItem('currentOrder'));
+	  	$scope.order = OrderService.data;
         console.log($scope.order);
 
         $scope.incrementQuantity = function(index){

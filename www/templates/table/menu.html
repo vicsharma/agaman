@@ -39,7 +39,7 @@
       <span ng-show="item.veg=='eggitarian'" class="nonvegeterian">⊡</span>
       <span>Rs : {{ item.price }}</span>
       <div class="itemQuantity"><span ng-click="removeQty()">-</span><span class="netQty">{{item.netQty}}</span><span ng-click="addQty()">+</span></div>
-      <button class="button button-positive">
+      <button class="button button-positive" ng-click="foodCart(item)">
           Add Item to Food Cart
       </button>
 

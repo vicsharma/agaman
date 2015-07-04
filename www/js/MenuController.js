@@ -46,7 +46,7 @@ AppController
                     name: menuItem.name,
                     description: menuItem.description,
                     price: '',
-                    quantity: 1
+                    quantity: menuItem.netQty
                 };
                 items.push(item);
 
@@ -65,8 +65,8 @@ AppController
         };
 
 
-        $scope.foodCart = function(){
-            localStorage.setItem('currentOrder',JSON.stringify(OrderService.data));
+        $scope.foodCart = function(menuItem){
+            $scope.addItemToOrder($scope.item);
             $state.go('app.table[order]');
         };
 
