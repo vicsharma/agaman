@@ -1,0 +1,15 @@
+<ion-view view-title="Menu">
+<ion-content>
+	<div ng-model="menuItems">
+		<div class="list">
+
+			<a class="item item-thumbnail-left" href="#" ng-repeat="(key, val) in menuItems">
+		      <img src="img/thumbnail-food-app.jpg">
+		      <h2>{{ val.name }}</h2>
+		      <p>{{ val.description }}</p>
+		      <button class="button button-small button-assertive">Add</button>
+		    </a>
+		</div>
+	</div>
+</ion-content>
+</ion-view>

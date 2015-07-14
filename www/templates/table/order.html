@@ -1,0 +1,25 @@
+<ion-view view-title="Order">
+<ion-content>
+	<div class="row responsive-sm">
+		<div ng-model="order">
+            <ul class="list">
+
+                <li class="item item-thumbnail-left" href="#" ng-repeat="item in order.foodItems track by $index">
+                    <img src="img/thumbnail-food-app.jpg">
+                    <h2>{{ item.name }}</h2>
+
+                    <button class="button button-small button-assertive" ng-click="incrementQuantity($index)">+</button><span class="quantity">{{item.quantity}}</span>
+                    <button class="button button-small button-assertive" ng-click="decrementQuantity($index)">-</button>
+                    <button class="button button-small button-assertive" ng-click="removeFromList($index)">Cancel</button>
+                </li>
+            </ul>
+
+		</div>
+	</div>
+	<div class="row responsive-sm">
+		<button class="button button-positive">
+		  Send Order to Kitchen
+		</button>
+	</div>
+</ion-content>
+</ion-view>

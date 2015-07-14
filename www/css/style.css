@@ -1,0 +1,54 @@
+/* Empty. Add your own CSS if you like */
+html,body{
+    height: 100%;
+}
+.col{
+	padding: 0px;
+}
+.advertisement{
+	background: url('../img/sandwich.jpeg') no-repeat;
+	background-size: 100% auto;
+	height: 150px;
+}
+.menuArea{
+	background-color: #DFD;
+	overflow-y: scroll;
+}
+
+.orderCol{
+	height: 600px;
+	padding-left: 10px;
+}
+
+.quantity{
+    border: 1px solid black;
+}
+
+.chillyRating{
+    width: 15px;
+    height: 15px;
+}
+
+.nonvegeterian{
+    font-family: "vegetarian";
+    color: #F00;
+}
+
+.itemQuantity span{
+    display: inline-block;
+    width : 28px;
+    height: 28px;
+    background-color: #FF0000;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid blanchedalmond;
+    margin: 0 2px 0 2px;
+    border-radius: 2px;
+    color: #FFF;
+}
+
+.itemQuantity .netQty{
+    border: 1px solid grey;
+    background-color: #FFF;
+    color: grey;
+}

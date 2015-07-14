@@ -1,0 +1,16 @@
+{
+	"orderId":"1",
+	"custormerId":"BP",
+	"foodItems": [
+		{
+			"id":"1",
+			"name":"Palak Partha",
+			"description":"This is palakk paratha"
+		},
+		{
+			"id":"2",
+			"name":"Gobi Aloo",
+			"description":"This is Gobi Aloo"
+		}
+	]
+}

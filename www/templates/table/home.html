@@ -1,0 +1,19 @@
+<ion-view view-title="Menu">
+<ion-content>
+	<div class="home">
+		<div>Provide your phone number or email to serve you better</div>
+		<div class="row responsive-sm">
+			<div class="col col-33 col-offset-33">
+			    <input type="text" ng-model="userDetails" placeholder="Mobile or email" value="deva@agamin.com">
+			</div>
+		</div>
+		<div class="row responsive-sm">
+			<div class="col col-33 col-offset-33">
+				<button class="button button-energized" ng-click="guestLogin()">No thanks!</button>
+				<button class="button button-positive" ng-click="submitDetails(userDetails)">Thank You!</button>
+			</div>
+		</div>
+	</div>
+
+</ion-content>
+</ion-view>
